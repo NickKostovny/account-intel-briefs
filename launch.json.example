@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "account-intel",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8830",
+        "--directory",
+        "account-intelligence/briefs"
+      ],
+      "port": 8830
+    },
+    {
+      "name": "account-intel-map",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8831",
+        "--directory",
+        "account-intelligence/briefs"
+      ],
+      "port": 8831
+    }
+  ]
+}
